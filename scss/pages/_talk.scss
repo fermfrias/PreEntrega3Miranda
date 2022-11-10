@@ -1,0 +1,106 @@
+.banner-contacto {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: $azulfuerte
+}
+
+.cuadricula-cont {
+    display: flex;
+    flex-wrap: wrap;
+    Width: 50%;
+}
+
+.cuadricula-cont img {
+    Width: 70%;
+    display: flex;
+    margin: 10%;
+}
+
+
+.Formulario {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+form {
+    background-color: $azulclaro;
+    border-radius: 7%;
+    width: 60%;
+    font-size: 20px;
+    text-align: left;
+    color: $azulfuerte;
+    font-family: 'Asap', sans-serif;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    position: relative;
+
+    fieldset {
+        font-family: 'Asap', sans-serif;
+        padding: 10%;
+    }
+}
+
+fieldset {
+    legend {
+        margin: 10px 0;
+        padding-bottom: 10px;
+        width: 180px;
+        color:$azulfuerte;
+        text-transform: uppercase;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        background: none;
+        outline: none;
+        resize: none;
+        border: 0;
+        font-family: 'Asap', sans-serif;
+        transition: all .3s;
+        border-bottom: 2px solid $azulfuerte;
+        font-size: smaller;
+    }
+}
+
+
+button{
+    float: right;
+    padding: 8px 50px;
+    margin:8px 0 0;
+    font-family: 'Asap', sans-serif;
+    border:2px solid $azulfuerte;
+    background: $azulfuerte;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+button{
+    &:hover {
+    background-color:$naranja;
+    }
+}
+
+input {
+    &:focus {
+        border-bottom: 2px solid $naranja;
+    }
+}
+
+p {
+    &:before {
+        content: attr(type);
+        display: block;
+        margin: 28px 0 0;
+        font-size: 14px;
+        color: $azulfuerte;
+        text-transform: uppercase;
+    }
+}

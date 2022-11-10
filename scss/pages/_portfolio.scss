@@ -1,0 +1,63 @@
+.portfolio {
+    display: grid;
+    grid-template-areas: "pagina1 pagina1 pagina2 pagina2"
+        "rrss1  rrss2   rrss3   rrss4";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    .pagina1 {
+        display: grid;
+        grid-area: pagina1;
+
+        img {
+            width: 100%;
+            align-items: center;
+        }
+    }
+
+    .pagina2 {
+        display: grid;
+        grid-area: pagina2;
+
+        img {
+            width: 100%;
+            align-items: center;
+        }
+    }
+
+    .rrss1 {
+        grid-area: rrss1;
+
+        img {
+            grid-area: rrss1;
+            width: 100%;
+        }
+    }
+
+    .rrss2 {
+        grid-area: rrss2;
+
+        img {
+            grid-area: rrss2;
+            width: 100%;
+        }
+    }
+
+    .rrss3 {
+        grid-area: rrss3;
+
+        img {
+            grid-area: rrss3;
+            width: 100%;
+        }
+    }
+
+    .rrss4 {
+        grid-area: rrss4;
+
+        img {
+            grid-area: rrss4;
+            width: 100%;
+        }
+    }
+}

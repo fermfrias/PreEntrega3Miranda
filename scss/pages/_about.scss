@@ -1,0 +1,266 @@
+.bannerabout {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: $azulclaro;
+    justify-content: 10%;
+    background-color:$azulclaro;
+
+    .ficha {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        align-items: center;
+        justify-items: center;
+        .fichafer {
+            display: grid;
+            grid-template-areas: "titulo titulo"
+                "vacio descripcion"
+                "icono coderhouse"
+                "icono coursera"
+                "icono universidad";
+            grid-template-columns: 25% 75%;
+            grid-template-rows: 15% 40% 15% 15% 15%;
+            border: 3px solid $azulfuerte;
+            color: $azulfuerte;
+            height: 70%;
+            width: 70%;
+            margin-left: 10%;
+            text-align:justify;
+        }
+        
+        .Vacio {
+            grid-area: vacio;
+            border: #ffffff;
+            border-bottom: 3px solid $azulfuerte;
+        }
+        
+        .titulo {
+            margin:0;
+            align-items: center;
+            grid-area: titulo;
+            border-bottom: 3px solid $azulfuerte;
+            place-content: center;
+            text-align:justify;
+
+            h2 {
+                margin:0;
+                font-family: 'Asap', sans-serif;
+                font-weight: 800;
+                text-align:center;
+            }
+        }
+        
+        .Descripcion {
+            grid-area: descripcion;
+            border-bottom: 3px solid $azulfuerte;
+            div {
+                padding-top: 0px;
+                place-content: center;
+                align-items: center;
+                padding-right: 10%;
+            }
+            p {
+                font-family: 'Asap', sans-serif;
+                font-weight: 300;
+            }
+        }
+
+        .icono {
+            grid-area: icono;
+            border-right: 3px solid $azulfuerte;
+            align-content: center;
+
+        }
+        
+        .estudios {
+            width: 100%;
+            align-content: center;
+            text-align:justify;
+            text-align:center;
+        }
+        
+        .coderhouse {
+            grid-area: coderhouse;
+            border-bottom: 3px solid $azulfuerte;
+            font-family: 'Asap', sans-serif;
+            align-content: center;
+            padding-bottom: 15%;
+            padding-left: 5%;
+        }
+        
+        .coursera {
+            grid-area: coursera;
+            border-bottom: 3px solid $azulfuerte;
+            font-family: 'Asap', sans-serif;
+            align-content: center;
+            padding-bottom: 15%;
+            padding-left: 5%;
+        }
+        
+        .universidad {
+            grid-area: universidad;
+            font-family: 'Asap', sans-serif;
+            align-content: center;
+            padding-bottom: 15%;
+            padding-left: 5%;
+        }
+        
+    }
+
+    .fotofer {
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+
+        .mifotobn {
+            width: 100%;
+        }
+    }
+
+}
+
+
+.tituloexp {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: $azulfuerte;
+
+    h2 {
+        padding-top: 10%;
+        color: #ffffff;
+        font-family: 'Asap', sans-serif;
+        font-size: 70px;
+        letter-spacing: 4px;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+}
+
+
+
+.fichas {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: $azulfuerte;
+    align-items: center;
+    justify-content: center;
+
+    .exp1 {
+        display: flex;
+        width: 33%;
+        flex-direction: row;
+        justify-content: center;
+
+        .card {
+            align-items: center;
+        }
+    }
+
+    .exp2 {
+        display: flex;
+        width: 33%;
+        flex-direction: row;
+        justify-content: center;
+
+        .card {
+            align-items: center;
+        }
+    }
+
+    .exp3 {
+        display: flex;
+        width: 33%;
+        flex-direction: row;
+        justify-content: center;
+
+        .card {
+            align-items: center;
+        }
+    }
+
+    .card-img-top {
+        width: 60%;
+        align-items: center;
+        margin-top: 10%;
+    }
+}
+
+
+
+.skills {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: $azulclaro;
+    align-items: center;
+    justify-items: center;
+
+    .textsk {
+        display: flex;
+        width: 33%;
+        flex-direction: row;
+        justify-items: center;
+        justify-content: center;
+
+        p {
+            color:$azulfuerte;
+            font-family: 'Asap', sans-serif;
+            font-size: 70px;
+            letter-spacing: 4px;
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
+    }
+
+    .diagramaskills {
+        display: flex;
+        width: 33%;
+        flex-direction: row;
+        background-color: $azulfuerte;
+        height: 100%;
+        padding: 5%;
+        border-radius: 10%;
+        justify-content: center;
+
+        img {
+            width: 120%;
+        }
+    }
+
+    .iconoskills {
+        display: flex;
+        width: 33%;
+        flex-direction: row;
+        padding: 5%;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+        img {
+            display: flex;
+            width: 33%;
+            flex-direction: row;
+            align-items: center;
+        }
+    }
+
+    .icono1 {
+        background-color: white;
+    }
+
+    .icono3 {
+        background-color: white;
+    }
+
+    .icono5 {
+        background-color: white;
+    }
+}

@@ -1,0 +1,343 @@
+@media screen and (max-width: 1024px) {
+    .banner-contacto {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: $azulfuerte;
+        justify-content: center;
+        position: fixed;
+    }
+
+    .Formulario {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cuadricula-cont {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0%;
+    }
+
+    .tienda {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+    .navegacion {
+        height: auto;
+        background-color: $azulfuerte;
+    }
+
+    .bannerabout {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .bannerabout .ficha {
+        flex-direction: row;
+        width: 100%;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+        padding: 0 0;
+        align-items: center;
+    }
+
+    .bannerabout .ficha .fichafer {
+        width: 80%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .bannerabout .ficha .fichafer p {
+        justify-content: center;
+        padding-bottom: 5%;
+        padding-top: 0%;
+        padding-left: 10%;
+        margin: 0%;
+        justify-items: center;
+    }
+
+    .bannerabout .ficha .fichafer .icono {
+        justify-content: center;
+        padding-bottom: 5%;
+        padding-top: 0%;
+        padding-left: 10%;
+        margin: 0%;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+
+    .bannerabout .fotofer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        padding: 0%;
+    }
+
+    .bannerabout .fotofer img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .fichas {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        background-color: $azulfuerte;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .tituloexp {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        background-color: $azulfuerte;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .tituloexp h2 {
+        padding-top: 10%;
+        color: #ffffff;
+        font-family: 'Asap', sans-serif;
+        font-size: 55px;
+        letter-spacing: 4px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    .fichas .exp1 {
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        margin-bottom: 10%;
+    }
+
+    .fichas .exp2 {
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        margin-bottom: 10%;
+    }
+
+    .fichas .exp3 {
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        margin-bottom: 10%;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .skills .textsk {
+        display: flex;
+        width: 90%;
+        flex-direction: row;
+        padding-bottom: 15%;
+    }
+
+
+    .skills .diagramaskills {
+        display: flex;
+        width: 80%;
+        justify-content: center;
+    }
+
+    .skills .diagramaskills img {
+        display: flex;
+        width: 95%;
+        justify-content: center;
+    }
+
+    .skills .iconoskills {
+        padding-top: 15%;
+        display: flex;
+        width: 80%;
+    }
+
+    .tienda {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        gap: 20px;
+        padding-left: 21%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .portfolio {
+        grid-template:
+            "pagina1"
+            "pagina2"
+            "rrss1"
+            "rrss2"
+            "rrss3"
+            "rrss4";
+        justify-content: center;
+    }
+
+    .banner-principal {
+        width: 100%;
+        height: auto;
+        position: initial;
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+        margin-top: 0%;
+    }
+
+    .banner-principal .welcome img {
+        width: 100%;
+        padding: 0%;
+    }
+
+    .banner-principal .cuadricula {
+        Width: 70%;
+        display: flex;
+        padding: 0%;
+    }
+
+    .banner-contacto {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .seccgifojos {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .seccgifojos a {
+        width: 20%;
+    }
+
+    .seccgifojos a img {
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        padding-top: 15%;
+    }
+
+    .Formulario {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .cuadricula-cont {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 10%;
+    }
+
+    .navegacion {
+        height: auto;
+        background-color: $azulfuerte
+    }
+
+    .contenido {
+        flex-direction: column;
+        width: 100%;
+        padding: 0%;
+        align-content: center;
+    }
+
+    .contenido .yo {
+        Width: 90%;
+        display: flex;
+        padding: 0%;
+        align-content: center;
+        justify-content: center;
+        margin-top: 10%;
+    }
+
+    .yo img {
+        width: 100%;
+    }
+
+    .mi-presentacion {
+        Width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 5%;
+        text-align: center;
+        padding-right: 1%;
+    }
+
+    .mi-presentacion h1 {
+        padding-top: 5%;
+        font-family: 'Asap', sans-serif;
+        font-size: 40px;
+        letter-spacing: 2px;
+        color: #0000fe;
+        justify-content: center;
+    }
+
+    .mi-presentacion h2 {
+        font-family: 'Asap', sans-serif;
+        font-size: 30px;
+        letter-spacing: 1px;
+        color: $naranja;
+        padding-bottom: 0%;
+        justify-content: center;
+    }
+
+    .mi-presentacion p {
+        margin: 0%;
+        justify-content: center;
+        padding-right: 0%;
+        padding-left: 10%;
+        margin-bottom: 15%;
+    }
+
+    footer .navegacionfooter {
+        flex-direction: column;
+        width: 50%;
+        padding: 1%;
+    }
+
+    footer .gatoimg {
+        Width: 50%;
+        display: flex;
+        justify-content: center;
+        padding: 0%;
+    }
+
+    footer .gatoimg img {
+        width: 100%;
+        padding: 0%;
+    }
+}

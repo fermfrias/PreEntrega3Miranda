@@ -1,0 +1,101 @@
+.navegacion {
+    width: 100%;
+    background-color: $azulfuerte;
+    justify-content: center;
+    position: fixed;
+    height: 100px;
+    height: 100px;
+    padding-top: 17px;
+    padding-left: 10%;
+    padding-right: 10%;
+    z-index: 6666;
+
+    ul {
+        padding-left: 5%;
+    }
+
+    container-fluid {
+        width: 100%;
+    }
+
+    .nav-item {
+        padding: 2%;
+
+        a {
+            color: #ffffff;
+            font-family: 'Asap', sans-serif;
+            letter-spacing: 2px;
+            width: max-content;
+        }
+
+        a:hover {
+            padding: 7% 7%;
+            background:$naranja;
+            transition: .5s;
+        }
+    }
+
+
+
+    img {
+        width: 90px;
+        &:hover {
+            padding: 0% 0%;
+            background:none;
+            transition: .5s;
+        }
+    }
+
+}
+
+main {
+    background-color: $azulfuerte;
+    padding-top: 90px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: $naranja;
+    width: 100%;
+    letter-spacing: 3px;
+
+    .gatoimg {
+        Width: 30%;
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 40%;
+        }
+    }
+
+    .navegacionfooter {
+        flex-direction: row;
+        padding-top: 5%;
+        display: flex;
+        width: 50%;
+        justify-content: center;
+
+        li {
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;
+            width: 60%;
+            justify-content: left;
+
+            a {
+                display: flex;
+                flex-direction: row;
+                color:$crema;
+                padding: 14px 20px;
+                text-decoration: none;
+                font-family: 'Asap', sans-serif;
+                font-size: small;
+                width: max-content;
+            }
+        }
+    }
+
+}

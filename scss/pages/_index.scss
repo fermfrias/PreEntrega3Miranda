@@ -1,0 +1,87 @@
+.banner-principal {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: $azulfuerte;
+
+    .welcome {
+        Width: 50%;
+        display: flex;
+
+        img {
+            width: 100%;
+            display: flex;
+            padding: 10%;
+        }
+    }
+
+    .cuadricula {
+        Width: 50%;
+        display: flex;
+
+        img {
+            width: 100%;
+            display: flex;
+            padding: 10%;
+        }
+    }
+}
+
+
+main {
+    background-color: $azulfuerte;
+}
+
+
+.contenido {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 5%;
+    place-items: center;
+    background-color:$azulclaro;
+
+    .yo {
+        align-items: center;
+        Width: 50%;
+        display: flex;
+        padding-left: 5%;
+
+        img {
+            width: 60%;
+            display: flex;
+        }
+    }
+
+    .mi-presentacion {
+        Width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        vertical-align: middle;
+        h1 {
+            font-family: 'Asap', sans-serif;
+            font-size: 50px;
+            letter-spacing: 2px;
+            color: #0000fe;
+        }
+        h2 {
+            font-family: 'Asap', sans-serif;
+            font-size: 30px;
+            letter-spacing: 1px;
+            color: #fd7000;
+        }
+        
+        p {
+            font-family: 'Asap', sans-serif;
+            font-size: 17px;
+            letter-spacing: 1px;
+            color: rgb(26, 26, 26);
+            padding-right: 15%;
+        }
+    }
+}
+
+

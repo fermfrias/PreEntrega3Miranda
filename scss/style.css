@@ -1,0 +1,857 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.navegacion {
+  width: 100%;
+  background-color: #0000fe;
+  justify-content: center;
+  position: fixed;
+  height: 100px;
+  height: 100px;
+  padding-top: 17px;
+  padding-left: 10%;
+  padding-right: 10%;
+  z-index: 6666;
+}
+.navegacion ul {
+  padding-left: 5%;
+}
+.navegacion container-fluid {
+  width: 100%;
+}
+.navegacion .nav-item {
+  padding: 2%;
+}
+.navegacion .nav-item a {
+  color: #ffffff;
+  font-family: "Asap", sans-serif;
+  letter-spacing: 2px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.navegacion .nav-item a:hover {
+  padding: 7% 7%;
+  background: #fd7000;
+  transition: 0.5s;
+}
+.navegacion img {
+  width: 90px;
+}
+.navegacion img:hover {
+  padding: 0% 0%;
+  background: none;
+  transition: 0.5s;
+}
+
+main {
+  background-color: #0000fe;
+  padding-top: 90px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #fd7000;
+  width: 100%;
+  letter-spacing: 3px;
+}
+footer .gatoimg {
+  Width: 30%;
+  display: flex;
+  justify-content: center;
+}
+footer .gatoimg img {
+  width: 40%;
+}
+footer .navegacionfooter {
+  flex-direction: row;
+  padding-top: 5%;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+footer .navegacionfooter li {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  width: 60%;
+  justify-content: left;
+}
+footer .navegacionfooter li a {
+  display: flex;
+  flex-direction: row;
+  color: #ffeddf;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-family: "Asap", sans-serif;
+  font-size: small;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.banner-principal {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #0000fe;
+}
+.banner-principal .welcome {
+  Width: 50%;
+  display: flex;
+}
+.banner-principal .welcome img {
+  width: 100%;
+  display: flex;
+  padding: 10%;
+}
+.banner-principal .cuadricula {
+  Width: 50%;
+  display: flex;
+}
+.banner-principal .cuadricula img {
+  width: 100%;
+  display: flex;
+  padding: 10%;
+}
+
+main {
+  background-color: #0000fe;
+}
+
+.contenido {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 5%;
+  place-items: center;
+  background-color: #CCFFFC;
+}
+.contenido .yo {
+  align-items: center;
+  Width: 50%;
+  display: flex;
+  padding-left: 5%;
+}
+.contenido .yo img {
+  width: 60%;
+  display: flex;
+}
+.contenido .mi-presentacion {
+  Width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  vertical-align: middle;
+}
+.contenido .mi-presentacion h1 {
+  font-family: "Asap", sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #0000fe;
+}
+.contenido .mi-presentacion h2 {
+  font-family: "Asap", sans-serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #fd7000;
+}
+.contenido .mi-presentacion p {
+  font-family: "Asap", sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: rgb(26, 26, 26);
+  padding-right: 15%;
+}
+
+.bannerabout {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #CCFFFC;
+  justify-content: 10%;
+  background-color: #CCFFFC;
+}
+.bannerabout .ficha {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  align-items: center;
+  justify-items: center;
+}
+.bannerabout .ficha .fichafer {
+  display: grid;
+  grid-template-areas: "titulo titulo" "vacio descripcion" "icono coderhouse" "icono coursera" "icono universidad";
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 15% 40% 15% 15% 15%;
+  border: 3px solid #0000fe;
+  color: #0000fe;
+  height: 70%;
+  width: 70%;
+  margin-left: 10%;
+  text-align: justify;
+}
+.bannerabout .ficha .Vacio {
+  grid-area: vacio;
+  border: #ffffff;
+  border-bottom: 3px solid #0000fe;
+}
+.bannerabout .ficha .titulo {
+  margin: 0;
+  align-items: center;
+  grid-area: titulo;
+  border-bottom: 3px solid #0000fe;
+  place-content: center;
+  text-align: justify;
+}
+.bannerabout .ficha .titulo h2 {
+  margin: 0;
+  font-family: "Asap", sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+.bannerabout .ficha .Descripcion {
+  grid-area: descripcion;
+  border-bottom: 3px solid #0000fe;
+}
+.bannerabout .ficha .Descripcion div {
+  padding-top: 0px;
+  place-content: center;
+  align-items: center;
+  padding-right: 10%;
+}
+.bannerabout .ficha .Descripcion p {
+  font-family: "Asap", sans-serif;
+  font-weight: 300;
+}
+.bannerabout .ficha .icono {
+  grid-area: icono;
+  border-right: 3px solid #0000fe;
+  align-content: center;
+}
+.bannerabout .ficha .estudios {
+  width: 100%;
+  align-content: center;
+  text-align: justify;
+  text-align: center;
+}
+.bannerabout .ficha .coderhouse {
+  grid-area: coderhouse;
+  border-bottom: 3px solid #0000fe;
+  font-family: "Asap", sans-serif;
+  align-content: center;
+  padding-bottom: 15%;
+  padding-left: 5%;
+}
+.bannerabout .ficha .coursera {
+  grid-area: coursera;
+  border-bottom: 3px solid #0000fe;
+  font-family: "Asap", sans-serif;
+  align-content: center;
+  padding-bottom: 15%;
+  padding-left: 5%;
+}
+.bannerabout .ficha .universidad {
+  grid-area: universidad;
+  font-family: "Asap", sans-serif;
+  align-content: center;
+  padding-bottom: 15%;
+  padding-left: 5%;
+}
+.bannerabout .fotofer {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+.bannerabout .fotofer .mifotobn {
+  width: 100%;
+}
+
+.tituloexp {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-color: #0000fe;
+}
+.tituloexp h2 {
+  padding-top: 10%;
+  color: #ffffff;
+  font-family: "Asap", sans-serif;
+  font-size: 70px;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.fichas {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: #0000fe;
+  align-items: center;
+  justify-content: center;
+}
+.fichas .exp1 {
+  display: flex;
+  width: 33%;
+  flex-direction: row;
+  justify-content: center;
+}
+.fichas .exp1 .card {
+  align-items: center;
+}
+.fichas .exp2 {
+  display: flex;
+  width: 33%;
+  flex-direction: row;
+  justify-content: center;
+}
+.fichas .exp2 .card {
+  align-items: center;
+}
+.fichas .exp3 {
+  display: flex;
+  width: 33%;
+  flex-direction: row;
+  justify-content: center;
+}
+.fichas .exp3 .card {
+  align-items: center;
+}
+.fichas .card-img-top {
+  width: 60%;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.skills {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: #CCFFFC;
+  align-items: center;
+  justify-items: center;
+}
+.skills .textsk {
+  display: flex;
+  width: 33%;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+}
+.skills .textsk p {
+  color: #0000fe;
+  font-family: "Asap", sans-serif;
+  font-size: 70px;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.skills .diagramaskills {
+  display: flex;
+  width: 33%;
+  flex-direction: row;
+  background-color: #0000fe;
+  height: 100%;
+  padding: 5%;
+  border-radius: 10%;
+  justify-content: center;
+}
+.skills .diagramaskills img {
+  width: 120%;
+}
+.skills .iconoskills {
+  display: flex;
+  width: 33%;
+  flex-direction: row;
+  padding: 5%;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.skills .iconoskills img {
+  display: flex;
+  width: 33%;
+  flex-direction: row;
+  align-items: center;
+}
+.skills .icono1 {
+  background-color: white;
+}
+.skills .icono3 {
+  background-color: white;
+}
+.skills .icono5 {
+  background-color: white;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-areas: "pagina1 pagina1 pagina2 pagina2" "rrss1  rrss2   rrss3   rrss4";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.portfolio .pagina1 {
+  display: grid;
+  grid-area: pagina1;
+}
+.portfolio .pagina1 img {
+  width: 100%;
+  align-items: center;
+}
+.portfolio .pagina2 {
+  display: grid;
+  grid-area: pagina2;
+}
+.portfolio .pagina2 img {
+  width: 100%;
+  align-items: center;
+}
+.portfolio .rrss1 {
+  grid-area: rrss1;
+}
+.portfolio .rrss1 img {
+  grid-area: rrss1;
+  width: 100%;
+}
+.portfolio .rrss2 {
+  grid-area: rrss2;
+}
+.portfolio .rrss2 img {
+  grid-area: rrss2;
+  width: 100%;
+}
+.portfolio .rrss3 {
+  grid-area: rrss3;
+}
+.portfolio .rrss3 img {
+  grid-area: rrss3;
+  width: 100%;
+}
+.portfolio .rrss4 {
+  grid-area: rrss4;
+}
+.portfolio .rrss4 img {
+  grid-area: rrss4;
+  width: 100%;
+}
+
+.tienda {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: #CCFFFC;
+  gap: 40px;
+  padding: 10%;
+}
+.tienda div {
+  width: 100%;
+  background-color: #0000fe;
+  padding: 10%;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1024) {
+  .tienda {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+}
+.banner-contacto {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #0000fe;
+}
+
+.cuadricula-cont {
+  display: flex;
+  flex-wrap: wrap;
+  Width: 50%;
+}
+
+.cuadricula-cont img {
+  Width: 70%;
+  display: flex;
+  margin: 10%;
+}
+
+.Formulario {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+form {
+  background-color: #CCFFFC;
+  border-radius: 7%;
+  width: 60%;
+  font-size: 20px;
+  text-align: left;
+  color: #0000fe;
+  font-family: "Asap", sans-serif;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  position: relative;
+}
+form fieldset {
+  font-family: "Asap", sans-serif;
+  padding: 10%;
+}
+
+fieldset legend {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: #0000fe;
+  text-transform: uppercase;
+}
+fieldset input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Asap", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #0000fe;
+  font-size: smaller;
+}
+
+button {
+  float: right;
+  padding: 8px 50px;
+  margin: 8px 0 0;
+  font-family: "Asap", sans-serif;
+  border: 2px solid #0000fe;
+  background: #0000fe;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #fd7000;
+}
+
+input:focus {
+  border-bottom: 2px solid #fd7000;
+}
+
+p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #0000fe;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner-contacto {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #0000fe;
+    justify-content: center;
+    position: fixed;
+  }
+  .Formulario {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .cuadricula-cont {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0%;
+  }
+  .tienda {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .navegacion {
+    height: auto;
+    background-color: #0000fe;
+  }
+  .bannerabout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+  .bannerabout .ficha {
+    flex-direction: row;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    padding: 0 0;
+    align-items: center;
+  }
+  .bannerabout .ficha .fichafer {
+    width: 80%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .bannerabout .ficha .fichafer p {
+    justify-content: center;
+    padding-bottom: 5%;
+    padding-top: 0%;
+    padding-left: 10%;
+    margin: 0%;
+    justify-items: center;
+  }
+  .bannerabout .ficha .fichafer .icono {
+    justify-content: center;
+    padding-bottom: 5%;
+    padding-top: 0%;
+    padding-left: 10%;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+  }
+  .bannerabout .fotofer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 0%;
+  }
+  .bannerabout .fotofer img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .fichas {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #0000fe;
+    align-items: center;
+    justify-content: center;
+  }
+  .tituloexp {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: #0000fe;
+    justify-content: center;
+    align-content: center;
+  }
+  .tituloexp h2 {
+    padding-top: 10%;
+    color: #ffffff;
+    font-family: "Asap", sans-serif;
+    font-size: 55px;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  .fichas .exp1 {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-bottom: 10%;
+  }
+  .fichas .exp2 {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-bottom: 10%;
+  }
+  .fichas .exp3 {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-bottom: 10%;
+  }
+  .skills {
+    flex-direction: column;
+  }
+  .skills .textsk {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    padding-bottom: 15%;
+  }
+  .skills .diagramaskills {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+  }
+  .skills .diagramaskills img {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+  }
+  .skills .iconoskills {
+    padding-top: 15%;
+    display: flex;
+    width: 80%;
+  }
+  .tienda {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 20px;
+    padding-left: 21%;
+  }
+}
+@media screen and (max-width: 720px) {
+  .portfolio {
+    grid-template: "pagina1" "pagina2" "rrss1" "rrss2" "rrss3" "rrss4";
+    justify-content: center;
+  }
+  .banner-principal {
+    width: 100%;
+    height: auto;
+    position: initial;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+    margin-top: 0%;
+  }
+  .banner-principal .welcome img {
+    width: 100%;
+    padding: 0%;
+  }
+  .banner-principal .cuadricula {
+    Width: 70%;
+    display: flex;
+    padding: 0%;
+  }
+  .banner-contacto {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .seccgifojos {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .seccgifojos a {
+    width: 20%;
+  }
+  .seccgifojos a img {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding-top: 15%;
+  }
+  .Formulario {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 15%;
+  }
+  .cuadricula-cont {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10%;
+  }
+  .navegacion {
+    height: auto;
+    background-color: #0000fe;
+  }
+  .contenido {
+    flex-direction: column;
+    width: 100%;
+    padding: 0%;
+    align-content: center;
+  }
+  .contenido .yo {
+    Width: 90%;
+    display: flex;
+    padding: 0%;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10%;
+  }
+  .yo img {
+    width: 100%;
+  }
+  .mi-presentacion {
+    Width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5%;
+    text-align: center;
+    padding-right: 1%;
+  }
+  .mi-presentacion h1 {
+    padding-top: 5%;
+    font-family: "Asap", sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #0000fe;
+    justify-content: center;
+  }
+  .mi-presentacion h2 {
+    font-family: "Asap", sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #fd7000;
+    padding-bottom: 0%;
+    justify-content: center;
+  }
+  .mi-presentacion p {
+    margin: 0%;
+    justify-content: center;
+    padding-right: 0%;
+    padding-left: 10%;
+    margin-bottom: 15%;
+  }
+  footer .navegacionfooter {
+    flex-direction: column;
+    width: 50%;
+    padding: 1%;
+  }
+  footer .gatoimg {
+    Width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+  }
+  footer .gatoimg img {
+    width: 100%;
+    padding: 0%;
+  }
+}/*# sourceMappingURL=style.css.map */
